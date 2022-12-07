@@ -402,6 +402,7 @@
 "Assets/Scripts/Pathfinding/Node.cs"
 "Assets/Scripts/Pathfinding/Pathfinding.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/RoomListItem.cs"
 "Assets/Scripts/Tracking.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
