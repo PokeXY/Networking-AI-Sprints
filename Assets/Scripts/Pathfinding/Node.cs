@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Code courtesy of Sebastian Lague, 2014
+// A* Pathfinding (EO3: algorithm implementation) - December 19th, 2014.
+// https://youtu.be/3Dw5d7PlcTM
+
 public class Node
 {
     public bool walkable;

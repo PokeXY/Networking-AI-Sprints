@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Code courtesy of Sebastian Lague, 2014
+// A* Pathfinding (EO3: algorithm implementation) - December 18th, 2014.
+// https://youtu.be/nhiFx28e7JY
+
 public class Grid : MonoBehaviour
 {
     public LayerMask unwalkableMask;
