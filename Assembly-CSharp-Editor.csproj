@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{88FA7F8E-FC46-5D3F-EEC8-F9F2BAF3106B}</ProjectGuid>
+    <ProjectGuid>{01DA6CA6-D431-5DA4-4FBD-CB5309277BC8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -311,9 +311,6 @@
     <Reference Include="UnityEditor.WebGL.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.OSXStandalone.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
@@ -322,9 +319,6 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UWP.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
@@ -842,55 +836,55 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D2A4C3E9-7CE9-2EA9-8CA8-978AA01E5598}</Project>
+      <Project>{32365704-E731-3B90-FB25-567B435F6250}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{F57B29DC-AF6F-66FF-B173-41687B6BCFA4}</Project>
+      <Project>{A8DE7740-8E36-2476-7E70-259F101817A4}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{26A845E7-0772-8872-9065-E664D52F7CCA}</Project>
+      <Project>{B21A825A-0465-F63D-15B5-1AD0C5A27AED}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{10B53C0F-8E79-9D32-AAF7-A7036257042E}</Project>
+      <Project>{142F10D4-DCBC-E53A-AE82-D160BAAEE59F}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{57E94AD3-F1E8-7341-97E6-D8D49060A20E}</Project>
+      <Project>{6E40C18B-8E63-561A-4B91-AAF2342C0EAB}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{A6194820-4B82-8E2E-717B-3346574CA572}</Project>
+      <Project>{669DC4CC-97FC-0EB4-3EC1-B86BE3E2E0B1}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{CB5C8590-DEC6-8FB7-6487-B4C4329CF008}</Project>
+      <Project>{A45AD496-BC6C-8040-5B0F-703F4695050B}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{9414F5F6-5C94-0E78-DCAD-6986BA370092}</Project>
+      <Project>{7FFFA7E2-CC0D-F41F-A1BC-494E50714A54}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{F12C9483-4E83-C95F-A522-CA832E97FB5B}</Project>
+      <Project>{FC321934-6A64-24FF-1E65-0EB6A53C3ADD}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{BEE8900E-CC9A-D7B3-A7AE-B2EF2AC83952}</Project>
+      <Project>{F2A498C0-7FBD-933C-28D6-799DA64F6AF5}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{CD9BDCA1-C8CB-75E1-19A3-1CA6C1974FFF}</Project>
+      <Project>{4D020120-BBE9-1BB5-758D-AFF405BB85B3}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{CB01165F-CFE5-992F-4653-0C0103C0DCD4}</Project>
+      <Project>{08C5FC5A-394B-CCAE-8CC8-28F8D5C8A011}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{A44C7EAE-28E4-15C0-7918-40831DD0F088}</Project>
+      <Project>{624225C3-1AA1-1007-E590-74A9A091E438}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
   </ItemGroup>
