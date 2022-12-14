@@ -3,32 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
+
 public class Tracking : MonoBehaviour
 {
-    public Transform Target;
-    public float UpdateSpeed = 0.1f; //how frequently path based on target transforms position
+    public GameObject player;
+    public float speed;
 
-    private NavMeshAgent Agent;
+    private float distance;
 
-    private void Awake()
+    private NavMeshAgent agent;
+
+    void Start()
     {
-        Agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
-    private void Start()
+    void Update()
     {
-        StartCoroutine(FollowTarget());
-    }
-    private IEnumerator FollowTarget()
-    {
-        WaitForSeconds Wait = new WaitForSeconds(UpdateSpeed);
+        distance = Vector3.Distance(transform.position, player.transform.position);
+        Vector3 direction = player.transform.position - transform.position;
 
-        while (enabled)
-        {
-            Agent.SetDestination(Target.transform.position);
-
-            yield return Wait;
-        }
+        transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
     }
 }

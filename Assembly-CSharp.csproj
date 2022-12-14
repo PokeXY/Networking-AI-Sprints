@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32365704-E731-3B90-FB25-567B435F6250}</ProjectGuid>
+    <ProjectGuid>{8C62470B-B6AD-7D5E-41E7-0F6C298546E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,6 +68,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Scripts\PlayerGroundCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scripts\AI scripts\FleeingAI.cs" />
     <Compile Include="Assets\Scripts\StateManager\MoveToObjectiveState.cs" />
     <Compile Include="Assets\Scripts\Launcher.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -116,8 +118,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Scripts\RoomListItem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\AI scripts\MoveCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\PlayerGroundCheck.cs" />
+    <Compile Include="Assets\Scripts\AI scripts\PlayerCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -873,39 +876,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{A8DE7740-8E36-2476-7E70-259F101817A4}</Project>
+      <Project>{D3FEDF8E-C67B-9A79-67D8-FF80B9BDBBBC}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{B21A825A-0465-F63D-15B5-1AD0C5A27AED}</Project>
+      <Project>{886BCB05-7AE8-142F-EC4B-0F4E3EDB84F0}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{142F10D4-DCBC-E53A-AE82-D160BAAEE59F}</Project>
+      <Project>{A2A5311B-C75F-C5F6-40AB-8D352E75B062}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{6E40C18B-8E63-561A-4B91-AAF2342C0EAB}</Project>
+      <Project>{EA5FDE71-C106-484A-2D0B-A622A7A366A7}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{A45AD496-BC6C-8040-5B0F-703F4695050B}</Project>
+      <Project>{FD7974BB-A3B3-D402-E516-F28013D1AF7A}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{7FFFA7E2-CC0D-F41F-A1BC-494E50714A54}</Project>
+      <Project>{93B3786A-C377-91D2-0D29-B75AB454FD33}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{FC321934-6A64-24FF-1E65-0EB6A53C3ADD}</Project>
+      <Project>{13316B68-7906-B335-8AAB-5691F95E0DBA}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{4D020120-BBE9-1BB5-758D-AFF405BB85B3}</Project>
+      <Project>{E2D008F6-2B57-31D3-EB27-17323A1DEFE5}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{08C5FC5A-394B-CCAE-8CC8-28F8D5C8A011}</Project>
+      <Project>{E947BC2F-3557-6CCC-1ACA-9833B7A0820E}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
