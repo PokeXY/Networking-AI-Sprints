@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9D45C501-45D5-CA97-AB63-27A3A61CBE71}</ProjectGuid>
+    <ProjectGuid>{4EDDB1DE-F481-7B86-CA23-506B9C0410D2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NavMeshComponents</AssemblyName>
@@ -644,7 +644,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{CB1AC38B-9D3B-6F75-D2F6-4355FD0CD004}</Project>
+      <Project>{16662D52-97B0-7FD1-5D4A-B9F765A39885}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
