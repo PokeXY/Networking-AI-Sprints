@@ -10,5 +10,6 @@ using UnityEngine;
 public abstract class State : MonoBehaviour
 {
     // Returns the current state
+
     public abstract State RunCurrentState();
 }

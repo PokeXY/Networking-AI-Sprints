@@ -180,10 +180,9 @@ GameObject:
   - component: {fileID: 94472558}
   - component: {fileID: 94472557}
   - component: {fileID: 94472561}
-  - component: {fileID: 94472562}
   m_Layer: 0
   m_Name: Seeker
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -281,20 +280,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: {fileID: 674757911}
---- !u!114 &94472562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94472556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 686a6ef130281c940a63c4e3b1308769, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 182638062}
-  speed: 2
 --- !u!1 &152742124
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,7 +455,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182638062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 1, z: -12}
+  m_LocalPosition: {x: 4, y: 1, z: -14.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -555,6 +540,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d81f50b1808ff49a58ca1dcd5ec50f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goal: {fileID: 1345555782}
+  parent: {fileID: 94472556}
+  player: {fileID: 182638062}
   canSeePlayer: 0
   targetPlayer: {fileID: 1889435425}
 --- !u!1 &843640258
@@ -1348,6 +1336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackState: {fileID: 31825537}
   isInAttackRange: 0
+  player: {fileID: 182638062}
+  parent: {fileID: 94472556}
 --- !u!1 &1972675059
 GameObject:
   m_ObjectHideFlags: 0

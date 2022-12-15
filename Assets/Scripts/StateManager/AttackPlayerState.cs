@@ -9,6 +9,7 @@ using UnityEngine;
 // Calling functions from our Abstract Class State
 public class AttackPlayerState : State
 {
+
     public override State RunCurrentState()
     {
         Debug.Log("AttackState");
